@@ -201,6 +201,10 @@ git merge testing
 
 The file that was present in testing is now visible in the `master` branch as well.
 
+### Final Steps
+
+You can delete this repository since it will not be used anymore.
+
 ## Additional Resources
 
 - Git Scm Documentation - https://git-scm.com/doc
