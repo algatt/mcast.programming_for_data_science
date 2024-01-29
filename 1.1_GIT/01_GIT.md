@@ -133,7 +133,7 @@ git log
 
 Let’s delete our last commit; to do this we must determine its commit code.
 
-![Alt text](img_commits.png)
+![Alt text](./images/img_commits.png)
 
 So, in order to delete our latest commit:
 

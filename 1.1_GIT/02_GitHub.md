@@ -47,7 +47,7 @@ git commit -m "Added README.md"
 
 Link this repository to the Github repository. You can get the URL by clicking the `Code` button in the repository homepage.
 
-![Github Repository URL](img_repo_url.png)
+![Github Repository URL](./images/img_repo_url.png)
 
 ```
 git remote add origin https://github.com/algatt/test_repo.git
