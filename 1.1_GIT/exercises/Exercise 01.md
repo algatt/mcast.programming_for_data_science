@@ -19,29 +19,31 @@
 17. From now on, if you prefer, you can use this application to manage your GIT resources.
 
 <details>
-    <summary>Answers</summary>
-    <code style="display:flex; flex-direction:column; line-height:2rem;">
-        <span>cd c:\git-training</span>
-        <span>mkdir mcast.programming_data_science.exercises</span>
-        <span>cd mcast.programming_data_science.exercises</span>
-        <span>git init</span>
-        <span>echo This will keep track of all the work done in this unit > README.md</span>
-        <span>git add .</span>
-        <span>git commit -m "README.md commit"</span>
-        <span>git remote add origin https://github.com/algatt/mcast.programming_data_science.exercises.git</span>
-        <span>git push -u origin master</span>
-        <span>git branch test</span>
-        <span>git checkout test</span>
-        <span>mkdir 1.1_GIT</span>
-        <span>cd 1.1_GIT</span>
-        <span>Not in Terminal: Create Exercise 1.txt and paste all statements until now</span>
-        <span>git add .</span>
-        <span>git commit -m "Added Exercise 1"</span>
-        <span>git push -u origin test</span>
-        <span>git checkout master</span>
-        <span>git merge test</span>
-        <span>git add .</span>
-        <span>git commit -m "Finished Exercise 1"</span>
-        <span>git push</span>
-    </span>
+<summary>Answers</summary>
+
+```
+cd c:\git-training
+mkdir mcast.programming_data_science.exercises
+cd mcast.programming_data_science.exercises
+git init
+echo This will keep track of all the work done in this unit > READMmd
+git add .
+git commit -m "README.md commit"
+git remote add origin https://github.com/algatt/mcasprogramming_data_science.exercises.git
+git push -u origin master
+git branch test
+git checkout test
+mkdir 1.1_GIT
+cd 1.1_GIT
+Not in Terminal: Create Exercise 1.txt and paste all statements untinow
+git add .
+git commit -m "Added Exercise 1"
+git push -u origin test
+git checkout master
+git merge test
+git add .
+git commit -m "Finished Exercise 1"
+git push
+```
+
 </details>
