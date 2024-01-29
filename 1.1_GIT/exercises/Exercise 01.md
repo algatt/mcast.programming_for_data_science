@@ -26,7 +26,7 @@ cd c:\git-training
 mkdir mcast.programming_data_science.exercises
 cd mcast.programming_data_science.exercises
 git init
-echo This will keep track of all the work done in this unit > READMmd
+echo This will keep track of all the work done in this unit > README.md
 git add .
 git commit -m "README.md commit"
 git remote add origin https://github.com/algatt/mcasprogramming_data_science.exercises.git
