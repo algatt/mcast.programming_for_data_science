@@ -201,6 +201,55 @@ git merge testing
 
 The file that was present in testing is now visible in the `master` branch as well.
 
+### Ignoring Files and Folders
+
+Sometimes you might not want to upload certain files and folders either due to size or privacy (like API keys) issues.
+
+Simply create a `.gitignore` file in the root of your repository and then in it you can place wildcards of which files you want to omit. The following are some examples.
+
+#### Single File
+
+```
+myfile.txt
+```
+
+#### Keeping a Single File
+
+```
+!myfile.txt
+```
+
+#### Multiple Files with Same Extension
+
+```
+*.tmp
+```
+
+#### Multiple Files with Same Name
+
+```
+image*
+```
+
+#### Folders
+
+```
+examples/
+```
+
+#### Files inside a Folder
+
+```
+examples/myfile.txt
+```
+
+#### Exluding a File from a Folder
+
+```
+examples/*
+!examples/myfile.txt
+```
+
 ### Final Steps
 
 You can delete this repository since it will not be used anymore.
