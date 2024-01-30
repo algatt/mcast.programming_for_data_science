@@ -101,3 +101,11 @@ This file can be used to install are required packages next time a new environme
 ```
 pip install requirements.txt
 ```
+
+## Deactivate an Environment
+
+To deactivate an environment from terminal, simply type:
+
+```
+deactivate
+```
