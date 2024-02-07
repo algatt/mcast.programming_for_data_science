@@ -116,7 +116,7 @@ git restore "My First File.txt"
 
 If you check the status again, there will be no changes. Also, if you open the file, you should see that the latest changes were removed.
 
-### Reset a Commit
+### Revert a Commit
 
 Delete the content from the file, and then add the changes, and commit it.
 
@@ -131,30 +131,14 @@ Now, the file will be empty. Let’s assume that this was a mistake, and we want
 git log
 ```
 
-Let’s delete our last commit; to do this we must determine its commit code.
+Let’s revert our last commit; to do this we must determine its commit code.
 
 ![Alt text](./images/img_commits.png)
 
-So, in order to delete our latest commit:
+So, in order to revert our latest commit:
 
 ```
 git revert f289a48b93ad8666058f9367200ddbbe63594d12
-```
-
-Now restore the file and the last changes should be removed.
-
-```
-git restore "My First File.txt"
-```
-
-Also, if you check the log, now you will see that the final commit is not there, it’s like it never happened.
-
-### Reverting to a Previous Commit
-
-Let’s repeat the process, so delete the content of a file, add the file to the staging area and commit it again. Check the log, you should have three commits. This time, instead of deleting the last commit, we will undo it and create an additional commit. We must use the code for the last commit.
-
-```
-git revert 695b1902e5b133c84aa5bcfe9dcc7320998c8da1
 ```
 
 This will ask you for a message, enter the message and confirm.
