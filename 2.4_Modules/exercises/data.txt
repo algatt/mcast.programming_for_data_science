@@ -1,0 +1,5 @@
+{ "id": 1, "name": "Alice", "age": 30, "score": 88 }
+{ "id": 2, "name": "Bob", "age": 25, "score": 92 }
+{ "id": 3, "name": "Charlie", "age": 25, "score": 95 }
+{ "id": 4, "name": "Diana", "age": 30, "score": 100 }
+{ "id": 5, "name": "Wallace", "age": 31, "score": 50 }
