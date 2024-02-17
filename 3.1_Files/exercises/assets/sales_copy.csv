@@ -1,0 +1,9 @@
+date,product,quantity,price_sold
+2024-01-01,apples,100,1.2
+2024-01-01,kiwis,93,0.6
+2024-01-01,bananas,200,1.1
+2024-01-02,apples,45,1.2
+2024-01-02,kiwis,10,0.8
+2024-01-02,bananas,200,1.1
+2024-01-03,apples,50,1.4
+2024-01-03,bananas,500,0.2
