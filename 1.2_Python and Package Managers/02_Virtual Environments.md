@@ -99,7 +99,7 @@ tzdata==2023.4
 This file can be used to install are required packages next time a new environment is created. Simply, paste the file in the project's folder and run
 
 ```
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Deactivate an Environment
